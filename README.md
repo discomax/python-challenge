@@ -11,7 +11,7 @@ Both of these challenges encompasses a real-world situation where your newfound 
 
 1. Create a new GitHub repo called `python-challenge`. Then, clone it to your computer.
 
-2. Inside your local git repository, create a directory for both of the  Python Challenges. Use folder names corresponding to the challenges: **PyBank** and  **PyPoll**.
+2. Inside your local git repository, create a directory for the  Python Challenge. Use folder name: **PyBank**.
 
 3. Inside of each folder that you just created, add a new file called `main.py`. This will be the main script to run for each analysis.
 
@@ -49,42 +49,6 @@ Both of these challenges encompasses a real-world situation where your newfound 
 
 * In addition, your final script should both print the analysis to the terminal and export a text file with the results.
 
-## PyPoll
-
-![Vote-Counting](Images/Vote_counting.jpg)
-
-* In this challenge, you are tasked with helping a small, rural town modernize its vote-counting process. (Up until now, Uncle Cleetus had been trustfully tallying them one-by-one, but unfortunately, his concentration isn't what it used to be.)
-
-* You will be give a set of poll data called [election_data.csv](PyPoll/Resources/election_data.csv). The dataset is composed of three columns: `Voter ID`, `County`, and `Candidate`. Your task is to create a Python script that analyzes the votes and calculates each of the following:
-
-  * The total number of votes cast
-
-  * A complete list of candidates who received votes
-
-  * The percentage of votes each candidate won
-
-  * The total number of votes each candidate won
-
-  * The winner of the election based on popular vote.
-
-* As an example, your analysis should look similar to the one below:
-
-  ```text
-  Election Results
-  -------------------------
-  Total Votes: 3521001
-  -------------------------
-  Khan: 63.000% (2218231)
-  Correy: 20.000% (704200)
-  Li: 14.000% (492940)
-  O'Tooley: 3.000% (105630)
-  -------------------------
-  Winner: Khan
-  -------------------------
-  ```
-
-* In addition, your final script should both print the analysis to the terminal and export a text file with the results.
-
 ## Hints and Considerations
 
 * Consider what we've learned so far. To date, we've learned how to import modules like `csv`; to read and write files in various formats; to store contents in variables, lists, and dictionaries; to iterate through basic data structures; and to debug along the way. Using what we've learned, try to break down you tasks into discrete mini-objectives. This will be a _much_ better course of action than attempting to Google Search for a miracle.
@@ -101,6 +65,3 @@ Both of these challenges encompasses a real-world situation where your newfound 
 
   * **Commit often**.
 
-## Copyright
-
-Trilogy Education Services © 2018. All Rights Reserved.
